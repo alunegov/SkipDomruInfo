@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "SkipDomruInfo",
+    "version": "0.1",
+    "description": "SkipDomruInfo",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://info.ertelecom.ru/*"
+    ]
+}
