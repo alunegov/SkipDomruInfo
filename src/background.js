@@ -10,7 +10,7 @@ chrome.webRequest.onBeforeRequest.addListener(
         }
         else {
             console.log(`ourl not found`)
-            return { cancel: true }
+            return { cancel: false }
         }
     },
     { urls: ["*://info.ertelecom.ru/*"] },
